@@ -215,8 +215,3 @@ Nudge is designed around the following privacy principles:
 
 ---
 
-## Related Documentation
-
-For information about how Nudge's components interact, see [`architecture.md`](./architecture.md).
-
-For additional implementation details, including the technology stack, activity tracking, timer system, website classification, and build process, see [`technical-documentation.md`](./technical-documentation.md).
