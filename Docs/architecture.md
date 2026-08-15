@@ -1,4 +1,4 @@
-# Nudge — Technical Documentation
+# Technical Documentation
 
 ## 1. System Overview
 
