@@ -69,7 +69,8 @@ Then return to `chrome://extensions` and select the reload button on the Nudge c
 - `Extension/src/popup` contains the toolbar popup.
 - `Extension/public` contains the manifest, icons, and page reminder script.
 - `Extension/dist` is the generated Chrome extension and should not be edited directly.
-- `Web` contains the standalone project website.
+- `Web` contains the standalone project website. ( Hosted [here][https://joshon360hz.github.io/NudgeWeb/] ).
+
 
 ## Common problems
 
