@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Nudge",
+  "version": "0.1.0",
+  "description": "Mindful browsing boundaries and reflection without blocking websites.",
+  "icons": {
+    "16": "favicon.png",
+    "32": "favicon.png",
+    "48": "favicon.png",
+    "128": "favicon.png"
+  },
+  "permissions": ["tabs", "storage", "idle", "alarms", "notifications", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": "favicon.png",
+    "default_popup": "popup.html",
+    "default_title": "Nudge"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "dashboard.html"
+}
