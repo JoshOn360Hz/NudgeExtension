@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#17151b" media="(prefers-color-scheme: dark)">
+  <title>Privacy Policy | Nudge</title>
+  <meta name="description" content="How Nudge handles your browsing activity, reflections, extension permissions, and locally stored data.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="header-inner shell">
+      <a class="brand" href="index.html" aria-label="Nudge home"><span class="brand-mark"><img src="assets/logo.png" alt="" width="34" height="34"></span><span>nudge</span></a>
+      <nav class="desktop-nav" aria-label="Primary"><a href="index.html#features">Features</a><a href="index.html#how">How it works</a><a href="privacy.html" aria-current="page">Privacy</a><a href="index.html#story">Story</a></nav>
+      <div class="header-actions">
+        <a class="button button-secondary header-cta" href="index.html">Back to home</a>
+        <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav shell" id="mobile-menu" aria-label="Mobile navigation" data-mobile-menu hidden><a href="index.html#features">Features</a><a href="index.html#how">How it works</a><a href="privacy.html">Privacy</a><a href="index.html#story">Story</a><a class="button button-secondary" href="index.html">Back to home</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="policy-hero"><div class="shell"><p class="eyebrow plain">Clear, human privacy</p><h1>Your browsing habits belong to you.</h1><p class="lead">Nudge is designed to show useful patterns without collecting the content of your browsing. This policy explains what the extension records, where it stays, and the controls you have.</p><div class="policy-meta"><span>Effective 15 August 2026</span><span>Local storage</span><span>No third-party analytics</span></div></div></section>
+    <div class="shell policy-layout">
+      <nav class="policy-nav" aria-label="Privacy policy sections"><strong>On this page</strong><a href="#overview">Overview</a><a href="#records">What Nudge records</a><a href="#not-recorded">What it avoids</a><a href="#storage">Storage & retention</a><a href="#permissions">Chrome permissions</a><a href="#controls">Your controls</a><a href="#third-parties">Third parties</a><a href="#changes">Policy changes</a></nav>
+      <article class="policy-content">
+        <section id="overview"><h2>Privacy at a glance</h2><p>Nudge is a mindful browsing companion. To show your active time, boundaries, and reflections, it needs a small amount of structured browsing information. That information is kept in signed Chrome extension storage on your device.</p><div class="policy-callout"><strong>No account. No cloud profile. No browsing history sold or shared.</strong> Nudge’s core experience works without sending your activity to an external server.</div></section>
+        <section id="records"><h2>What Nudge records</h2><p>Nudge records only the information needed to provide its features:</p><ul><li><strong>Hostnames</strong>, such as <code>example.com</code>, so time can be grouped by site. It does not save the complete address.</li><li><strong>Categories</strong> you assign, including Social, Work, Relax, Other, or a custom grouping supported by the extension.</li><li><strong>Active-time segments</strong> that describe when a tracked browser tab was actively in use.</li><li><strong>Boundaries and break preferences</strong>, including daily limits and chosen reminder durations.</li><li><strong>Reflections</strong> you choose to enter, including mood check-ins and end-of-day notes.</li><li><strong>Settings</strong> needed to make the extension behave the way you selected.</li></ul><p>Nudge tracks active browsing, rather than assuming every open background tab has your attention.</p></section>
+        <section id="not-recorded"><h2>What Nudge does not record</h2><p>Nudge does not record or inspect:</p><div class="policy-table"><div class="policy-row"><strong>Full URLs</strong><span>Paths, fragments, and other complete address details are not saved.</span></div><div class="policy-row"><strong>Page titles</strong><span>The titles shown in browser tabs are not stored.</span></div><div class="policy-row"><strong>Search queries</strong><span>The words or phrases you search for are not collected.</span></div><div class="policy-row"><strong>Page content</strong><span>Nudge does not read or store the text, images, forms, messages, or media on a page.</span></div><div class="policy-row"><strong>External profiles</strong><span>Your browsing activity is not uploaded to build a server-side profile.</span></div></div></section>
+        <section id="storage"><h2>Storage and retention</h2><h3>Where your data stays</h3><p>Extension data is stored locally in signed Chrome extension storage associated with your browser profile. Nudge does not operate an external browsing-data server.</p><h3>How long it stays</h3><p>Detailed browsing activity is available for up to one month so the Calendar can show recent patterns. Where the extension offers retention controls, the period you choose is applied on your device. Older activity is removed as part of normal local cleanup.</p><p>Data may also be removed when you use Nudge’s delete controls, clear extension storage in Chrome, remove the extension and its data, or import a replacement data set.</p></section>
+        <section id="permissions"><h2>Why Chrome permissions are needed</h2><p>Chrome permissions are used only to operate the features described here. The precise wording shown by Chrome may vary by release.</p><div class="policy-table"><div class="policy-row"><strong>Tabs / active tab</strong><span>Identifies the hostname of the active tab so Nudge can attribute active time to the correct site. Page content is not read.</span></div><div class="policy-row"><strong>Storage</strong><span>Saves categories, boundaries, settings, time segments, and reflections locally.</span></div><div class="policy-row"><strong>Alarms</strong><span>Runs break timers, boundary checks, and scheduled local housekeeping reliably.</span></div><div class="policy-row"><strong>Notifications</strong><span>Shows reminders you have enabled when a boundary or break timer is reached.</span></div><div class="policy-row"><strong>Host access</strong><span>Allows Nudge to recognise the hostname of sites you choose to track. It is not used to collect page content.</span></div></div></section>
+        <section id="controls"><h2>Export, import, and delete</h2><p>You remain in control of the information stored by Nudge. From Settings, you can:</p><ul><li><strong>Export</strong> a copy of your Nudge data for backup or review.</li><li><strong>Import</strong> a compatible Nudge data file.</li><li><strong>Delete</strong> your stored activity, boundaries, reflections, and settings.</li></ul><p>Exports remain under your control. If you copy an export to another service or device, that location’s security and privacy practices apply to the copy.</p></section>
+        <section id="third-parties"><h2>Third-party services</h2><p>Nudge does not send browsing activity, hostnames, reflections, boundaries, or active-time segments to analytics companies, advertising networks, data brokers, or another external server.</p><p>The Chrome Web Store and the Chrome browser are provided by Google and are governed by Google’s own terms and privacy practices. Those services distribute and run the extension, but Nudge does not add third-party analytics or advertising to its core experience.</p></section>
+        <section id="changes"><h2>Changes to this policy</h2><p>If Nudge’s data practices or required permissions materially change, this policy will be updated before or alongside the relevant extension release. The effective date at the top of this page will show when the latest version took effect.</p><p>This policy intentionally has no contact section until the project has an approved support address.</p><a class="button button-secondary" href="index.html">Return to Nudge</a></section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-main"><div><a class="brand" href="index.html"><span class="brand-mark"><img src="assets/logo.png" alt="" width="34" height="34"></span><span>nudge</span></a><p>Mindful browsing without blocking.<br>A little space between impulse and action.</p></div><div class="footer-links"><div><strong>Explore</strong><a href="index.html#features">Features</a><a href="index.html#how">How it works</a><a href="index.html#story">Our story</a></div><div><strong>Trust</strong><a href="privacy.html">Privacy policy</a><span>Chrome Store <small>Soon</small></span><a href="https://github.com/JoshOn360Hz/NudgeExtension" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></div><div class="shell footer-bottom"><p>Made with care by Josh, Izzy and Shay.</p><p>© <span data-current-year>2026</span> Nudge. Browse kindly.</p></div></footer>
+</body>
+</html>
