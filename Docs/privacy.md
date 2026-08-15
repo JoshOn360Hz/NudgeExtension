@@ -1,4 +1,4 @@
-# Nudge — Data & Privacy
+# Data & Privacy
 
 
 ## What Nudge Records
